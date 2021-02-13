@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/main_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/FirstRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/news_card_list" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/FirstRecyclerView"
+        android:id="@+id/SecondRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/news_card_list" />
+
+
+</RelativeLayout>

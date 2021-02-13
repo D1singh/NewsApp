@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="author">Author:</string>
+    <string name="publishedat">PublishedAt:</string>
+</resources>
